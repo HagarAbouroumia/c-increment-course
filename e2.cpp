@@ -9,9 +9,7 @@ class super{
 };
 
 class sub : super {
-   public:
-   int y;
-   
+
 };
 
 int main() {
