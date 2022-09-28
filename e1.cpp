@@ -4,21 +4,12 @@
 using namespace std;
 
 class super{
-int storage1; // what is the access specifier?
-    private:
-    int storage2;
-    public:
-    super(int storage2){
-        this->storage2 = storage2;
-    }
-    int get(){
-        return storage2;
-    }
+int storage = 5; // what is the access specifier?
 };
 
 int main() {
-    super s(5);
-    cout << s.get() << endl;
+    super s;
+    cout << s.storage << endl;
     
 
     return 0;
