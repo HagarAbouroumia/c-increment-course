@@ -19,9 +19,15 @@ public:
 	void MakeSound(void) { cout << Name << ": Meow! Meow!" << endl; }
 };
 int main(void) {
-
-	Pet *a_pet = new Dog("Huckleberry"); //ans 1
-	a_pet -> Run();
-// 	a_pet -> MakeSound(); // ans 2
+	Dog *a_dog = new Dog("dog");
+	a_dog->Run(); // ans 1
+	
+// 	Pet *a_pet = new Pet("pet");
+// 	a_pet->MakeSound(); // ans2
+	
+// 	Pet *a_pet2 = new Dog("Huckleberry");
+// 	a_pet2 -> Run(); // ans 3
+// 	a_pet3 -> MakeSound(); // ans 4
+	
 	return 0;
 }
