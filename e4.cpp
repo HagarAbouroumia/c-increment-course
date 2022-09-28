@@ -9,11 +9,13 @@ class super{
 };
 
 class sub : public super {
-
+    public:
+    void print_p(){
+        cout << p << endl;
+    }
 };
 
 int main() {
     sub s;
-    s.p = 5;
-    return 0;
+    s.print_p();
 }
