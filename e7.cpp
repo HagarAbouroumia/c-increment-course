@@ -23,4 +23,5 @@ class sub : public super {
 int main() {
     sub s;
     s.print();
+    cout << "This is public variable = "<<s.z << endl;
 }
